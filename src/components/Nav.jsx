@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-slate-900 text-teal-500
-hover:bg-slate-800
+hover:bg-slate-800 
  text-white fixed top-0 w-full z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
 
@@ -30,7 +30,7 @@ hover:bg-slate-800
         </a>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-15 items-center justify-end w-full py-3">
+        <ul className="hidden md:flex space-x-12 flex px-6 py-3 items-center justify-end w-full py-3">
           <li><a href="#home" className="nav-link">Home</a></li>
           <li><a href="#about" className="nav-link">About Me</a></li>
           <li><a href="#projects" className="nav-link">Projects</a></li>
