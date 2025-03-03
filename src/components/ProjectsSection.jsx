@@ -13,7 +13,7 @@ const projects = [
   {
     title: "My Portfolio",
     description: "A beautifully designed portfolio showcasing my skills, projects, and experience.",
-    link: "https://your-portfolio-link.com",
+    link: "https://my-new-portfolio-kappa-sand.vercel.app/",
     image: portfolioImage,
   },
 ];
