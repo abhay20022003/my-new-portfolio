@@ -27,25 +27,25 @@ const AboutMe = () => {
             {/* Skills Grid */}
             <div className="grid grid-cols-2 gap-6 mt-6">
               {/* Framework */}
-              <div className="p-4 bg-gray-800 rounded-lg shadow-md text-center">
+              <div className="p-4 bg-gray-600 rounded-lg shadow-md text-center">
                 <h3 className="text-xl font-semibold text-blue-400">Framework</h3>
                 <p className="text-gray-300 mt-2">React.js & React Native</p>
               </div>
 
               {/* CMS */}
-              <div className="p-4 bg-gray-800 rounded-lg shadow-md text-center">
+              <div className="p-4 bg-gray-600 rounded-lg shadow-md text-center">
                 <h3 className="text-xl font-semibold text-green-400">CMS</h3>
                 <p className="text-gray-300 mt-2">WordPress</p>
               </div>
 
               {/* Version Control */}
-              <div className="p-4 bg-gray-800 rounded-lg shadow-md text-center">
+              <div className="p-4 bg-gray-600 rounded-lg shadow-md text-center">
                 <h3 className="text-xl font-semibold text-yellow-400">Version Control</h3>
                 <p className="text-gray-300 mt-2">GitHub</p>
               </div>
 
               {/* Soft Skills */}
-              <div className="p-4 bg-gray-800 rounded-lg shadow-md text-center">
+              <div className="p-4 bg-gray-600 rounded-lg shadow-md text-center">
                 <h3 className="text-xl font-semibold text-purple-400">Soft Skills</h3>
                 <p className="text-gray-300 mt-2">
                   Communication, Leadership, Problem Solving, Teamwork, Adaptability
