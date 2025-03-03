@@ -38,16 +38,29 @@ const HeroSection = () => {
             with a keen eye for clean, efficient code and intuitive UI/UX design.
           </p>
 
-          {/* Buttons */}
+          {/* Buttons
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-            <a
-              href="/AbhaySingh_Resume.pdf"
-              download="AbhaySingh_Resume.pdf"
+
+            <a href="/AbhaySingh_Resume.pdf" download target="_blank" rel="noopener noreferrer"
+
               className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-all cursor-pointer"
             >
               Download Resume
             </a>
-          </div>
+          </div> */}
+          <motion.a
+            href="/AbhaySingh_Resume.pdf"
+            download
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-all cursor-pointer"
+            onClick={(e) => {
+              e.stopPropagation();  // Prevents React event interference
+            }}
+          >
+            Download Resume
+          </motion.a>
+
         </div>
 
         {/* Right Section - Profile Image */}
