@@ -29,7 +29,8 @@ function Footer() {
       <div className="mt-4 md:mt-0">
         <p className="text-sm">
           <a href="#projects" className="hover:underline">Projects</a> | 
-          <a href="#home" className="hover:underline"> home</a>
+          <a href="#homenpm install react-icons
+" className="hover:underline"> home</a>
         </p>
       </div>
     </footer>
