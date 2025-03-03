@@ -42,7 +42,7 @@ const HeroSection = () => {
           {/* Buttons */}
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
             <motion.a
-              href="/Abhay_Singh_Resume.pdf"
+              href="/AbhaySingh_Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
