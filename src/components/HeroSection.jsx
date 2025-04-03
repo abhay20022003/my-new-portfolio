@@ -40,7 +40,7 @@ const HeroSection = () => {
           </p>
 
           {/* Buttons */}
-          {/* <div className="mt-6 flex justify-center md:justify-start space-x-4">
+          <div className="mt-6 flex justify-center md:justify-start space-x-4">
             <motion.a
               href="/AbhayCV.pdf" // Ensure the file is in the public folder
               download="AbhayCV.pdf"
@@ -50,7 +50,7 @@ const HeroSection = () => {
             >
               Download Resume
             </motion.a>
-          </div> */}
+          </div>
         </div>
 
         {/* Right Section - Profile Image */}
