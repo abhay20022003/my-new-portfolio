@@ -4,6 +4,16 @@ import { motion } from "framer-motion";
 import profilePic from "../assets/Abhay.jpeg"; // Replace with your image path
 
 const HeroSection = () => {
+  // Function to force download the resume
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/AbhayCV.pdf"; // Ensure the file is in the 'public' folder
+    link.download = "AbhayCV.pdf"; // Name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="relative bg-gray-900 text-white min-h-[90vh] flex items-center py-20 overflow-hidden">
       {/* Background Gradient */}
@@ -39,17 +49,16 @@ const HeroSection = () => {
             with a keen eye for clean, efficient code and intuitive UI/UX design. 
           </p>
 
-          {/* Buttons */}
+          {/* Download Resume Button */}
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-            <motion.a
-              href="/AbhayCV.pdf" // Ensure the file is in the public folder
-              download="AbhayCV.pdf"
+            <motion.button
+              onClick={handleDownload}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-all"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-all"
             >
               Download Resume
-            </motion.a>
+            </motion.button>
           </div>
         </div>
 
