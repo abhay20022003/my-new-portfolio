@@ -48,7 +48,7 @@ const HeroSection = () => {
               whileTap={{ scale: 0.95 }}
               className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-all"
             >
-              Download Resume
+              {/* Download Resume */}
             </motion.a>
           </div>
         </div>
