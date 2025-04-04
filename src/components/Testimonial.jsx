@@ -13,7 +13,7 @@ const testimonials = [
     position: "SDE at GlobalLogic",
     feedback:
       "Highly professional and proactive! Your ability to solve problems quickly really impressed me.",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQHCe5mIIzmTdw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720623939055?e=1744848000&v=beta&t=btAlf0m_Qen6qpBQmlb67on07lDiht5fDuDiKwuXxU8",
+    image: "https://www.instagram.com/exotic_commando/p/CtKJZ6XSctw06M819HHFjc2NGynsgXZG51QqDo0/",
   },
   {
     name: "Mo. Dilshad",
